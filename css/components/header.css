@@ -1,0 +1,33 @@
+.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.header img {
+    width: 17px;
+    padding-right: 10px;
+}
+
+.header img:hover {
+    -moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.header section {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .header  {
+        grid-template-columns: 1fr;
+    }
+}

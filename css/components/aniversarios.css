@@ -1,0 +1,37 @@
+.aniversarios {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+}
+
+.aniversarios .aniversarios-titulo {
+    font: Bold 32px/40px Barlow;
+    color: #026CB4;
+}
+
+.aniversarios p {
+    font: normal 20px/29px Barlow;
+    color: #026CB4;
+}
+
+.aniversarios .aniversarios-mes {
+    font: Bold 22px/40px Barlow;
+    color: #026CB4;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.aniversarios .aniversarios-mes a {
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.aniversarios .aniversarios-mes a:hover {
+    text-decoration: underline;
+}
+
+.aniversarios .aniversarios-mes::before {
+    content: "///////////////////";
+    color: #FF6A6A;
+    font-weight: bold;
+}

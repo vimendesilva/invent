@@ -1,0 +1,14 @@
+.footer-link {
+    text-align: center;
+    font: Bold 14px/17px Barlow;
+    color: #026CB4;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link span {
+    color: #FF6A6A;
+    font-weight: bold;
+}

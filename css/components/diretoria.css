@@ -1,0 +1,40 @@
+.diretoria {
+    background-color: #026CB4;
+}
+
+.diretoria .diretoria-titulo {
+    font: Bold 22px/40px Barlow;
+    color: #FFFFFF;
+}
+
+.diretoria .diretoria-titulo::after {
+    content: "///////////////////";
+    color: #FF6A6A;
+}
+
+.diretoria p {
+    font: normal 16px/16px Roboto;
+    color: #FFFFFF;
+}
+
+.diretoria span {
+    font: Bold 14px/40px Barlow;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.diretoria .diretoria-button {
+    background: #0865A3 0% 0% no-repeat padding-box;
+    padding: 10px;
+    margin: 5px;
+    transition: background 0.4s ease-out;
+}
+
+.diretoria .diretoria-button:hover {
+    background: #FF6A6A;
+}
+
+.diretoria .active {
+    background: #FF6A6A 0% 0% no-repeat padding-box;
+}
+

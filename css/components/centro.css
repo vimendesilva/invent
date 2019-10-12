@@ -1,0 +1,79 @@
+.centro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.centro img {
+    height: 21px;
+    width: 21px;
+}
+
+.centro p {
+    padding: 20px;
+}
+
+.centro .centro-texto1 {
+    display: grid;
+    grid-column: 1 / 6;
+}
+
+.centro .centro-texto2 {
+    display: grid;
+    grid-column: 6 / 12;
+}
+
+.centro .centro-texto1 p {
+    font: normal 16px/22px Roboto;
+    color: #727272;
+}
+
+.centro .centro-texto2 li {
+    font: normal 15px/22px Roboto;
+    color: #727272;
+    padding: 15px;
+}
+
+.centro .centro-texto2 li::before {
+    content: "•"; 
+    color: #FF6A6A;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+.centro .centro-titulo1 {
+    display: grid;
+    grid-column: 1 / 6;
+    font: Bold 32px/40px Barlow;
+    color: #026CB4;
+}
+
+.centro .centro-titulo1::before {
+    content: "";
+    width: 50px;
+    border: 2px solid #FF6A6A;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.centro .centro-texto1 a {
+    font: Bold 14px/22px Barlow;
+    color: #026CB4;
+    margin: 15px;
+}
+.centro .centro-texto1 a:hover {
+    text-decoration: underline;
+}
+
+.centro .centro-texto2 .centro-titulo2 {
+    font: Bold 18px/22px Barlow;
+    color: #026CB4;
+}
+
+.centro .centro-texto2 p {
+    font: normal 16px/17px Roboto;
+    color: #57BBFF;
+}
